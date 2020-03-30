@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Slideshow">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="382dp"
+        android:layout_height="303dp"
+        android:layout_x="12dp"
+        android:layout_y="88dp" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="196dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="57dp"
+        android:layout_x="14dp"
+        android:layout_y="406dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="258dp"
+        android:layout_y="407dp"
+        android:onClick="next"
+        android:text="@string/next"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="252dp"
+        android:layout_y="462dp"
+        android:onClick="previous"
+        android:text="@string/previous"
+        android:textSize="18sp" />
+</AbsoluteLayout>

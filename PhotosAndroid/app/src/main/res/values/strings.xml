@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Photos Android</string>
+    <string name="add">add</string>
+    <string name="remove">remove</string>
+    <string name="display">display</string>
+    <string name="open">Open</string>
+    <string name="create">Create</string>
+    <string name="rename">rename</string>
+    <string name="delete">delete</string>
+    <string name="button">Button</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="caption">TextView</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="add_tag">Add Tag</string>
+    <string name="move">move</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="search">Search</string>
+    <string name="delete_tag">Delete Tag</string>
+</resources>

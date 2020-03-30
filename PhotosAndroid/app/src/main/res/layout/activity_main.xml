@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.photosandroid.MainActivity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="677dp"
+        android:onClick="search"
+        android:text="@string/search" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="406dp"
+        android:layout_height="464dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="2dp"
+        android:layout_x="1dp"
+        android:layout_y="50dp">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="515dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="open"
+            android:text="@string/open"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/addPhoto"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="create"
+            android:text="@string/create"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/remove"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="delete"
+            android:text="@string/delete"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/rename"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_weight="1"
+            android:onClick="rename"
+            android:text="@string/rename"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</AbsoluteLayout>
